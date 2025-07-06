@@ -1,4 +1,4 @@
-package com.mendoza.danna.poketinker
+package com.mendoza.danna.poketinder
 
 import org.junit.Test
 

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mendoza.danna.poketinker"
+    namespace = "com.mendoza.danna.poketinder"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.mendoza.danna.poketinker"
+        applicationId = "com.mendoza.danna.poketinder"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -32,6 +32,11 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+    }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
     }
 }
 
